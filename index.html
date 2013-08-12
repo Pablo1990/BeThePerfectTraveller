@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Be the perfect traveller</title>
+		<!-- jQuery Mobile for BB10	-->
+		<link rel="stylesheet" type="text/css" href="BlackBerry-JQM-all.min.css"/>
+		<script type="text/javascript" src="BlackBerry-JQM-all.min.js"></script>
+		<!--<script type="text/javascript" src="localytics.js"></script>-->
+		<link rel="stylesheet" type="text/css" href="CSS/index.css"></link>
+	</head>
+	<body>
+		<!-- jQuery structure -->
+		<div data-role="page" id="main">
+			<div data-role="content" align="center">
+				<div data-role="fieldcontain">
+					<label>
+						<h3 class="h3White">Select the country</h3>
+					</label>
+					<select id="cbCountry" name="" data-inline="true" data-overlay-theme="b">
+						<option value="USA">
+							USA
+						</option>
+						<option value="Canada">
+							Canada
+						</option>
+						<option value="France">
+							France
+						</option>
+						<option value="Spain">
+							Spain
+						</option>
+						<option value="Germany">
+							Germany
+						</option>
+						<option value="China">
+							China
+						</option>
+						<option value="United Kingdom">
+							United Kingdom
+						</option>
+						<option value="Japan">
+							Japan
+						</option>
+						<option value="India">
+							India
+						</option>
+						<option value="Brazil">
+							Brazil
+						</option>
+						<option value="Argentina">
+							Argentina
+						</option>
+						<option value="Russia">
+							Russia
+						</option>
+					</select>
+				</div>
+				<a data-role="button" href="#result" onclick="lookForCountries();" data-icon="search" data-iconpos="left" rel="external" data-inline="true">
+					Be the perfect traveller!
+				</a>
+			</div>
+			<div data-role="footer">
+				
+			</div>
+		</div>
+
+		<div data-role="page" id="result">
+			<div data-role="content">
+				<div data-role="fieldcontain" align="center">
+					<label>
+						<h3 id="countryTitle">
+						</h3>
+					</label>
+				</div>
+				<div data-role="fieldcontain">
+					<label class="h3white">Initial bill:</label>
+					<input name="Bill" id="inBill" value="0" type="number" onchange="refreshBill()" maxlength="9">
+				</div>
+				<div data-role="fieldcontain">
+					<label class="h3white">Percentege tip:</label>
+					<input type="range" name="Percentege" id="sliderPercent" value="0" min="0" max="5" data-highlight="true" onchange="refreshBill()" />
+				</div>
+				<div data-role="fieldcontain">
+					<label for"lbBill" class="h3white">
+						Final bill:
+					</label>
+					<input name="FinalBill" id="lbBill" value="0" enable="false" maxlength="10">
+				</div>
+				<div class="showTip">
+					<h1><span id="lbAdvice"></span></h1>
+				</div>
+				<div align="center">
+					<a data-role="button" href="#main" data-inline="true">
+						Change country?
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			/*var localyticsSession = LocalyticsSession("3ee9a82ec6b50448eba37ce-4c6bb902-f697-11e2-384f-00a426b17dd8");
+			localyticsSession.open();
+			localyticsSession.upload();*/
+
+			var data="";
+
+			function refreshBill(){
+				if($("#inBill").val().length>0){
+					$('#lbBill').val((parseFloat($("#inBill").val()))+((parseFloat($("#inBill").val())*parseFloat($("#sliderPercent").val())/100)));
+				}
+			}
+
+			function lookForCountries() {
+				if(data=="")
+				{
+					$.ajax({
+		               type: "GET",
+		               url: "countries.xml",
+		               dataType: "xml",
+		               success: parseXml
+	               });
+				}
+				else
+				{
+					parseXml(data);
+				}
+			}
+
+			function parseXml(data2) {
+				data=data2;
+				$(data).find("country").each(function() {
+					if($(this).find('name').text() == $("#cbCountry").val())
+					{
+						//localyticsSession.tagEvent("SelectedCountry", {"Name":$("#cbCountry").val()});
+						// localyticsSession.open();
+						// localyticsSession.upload();
+						document.getElementById("countryTitle").innerHTML = "Country: " + $("#cbCountry").val();
+						var cont=0;
+						$(this).find('tip').each(function() {
+							var tip = $(this).text();
+							if(cont==0)
+							{
+								$("#sliderPercent").attr("min", parseInt(tip));
+								$("#sliderPercent").val(parseInt(tip));
+								$('#sliderPercent').slider('refresh');
+							}
+							else
+							{
+								$("#sliderPercent").attr("max", parseInt(tip));
+								$('#sliderPercent').slider('refresh');
+							}
+							cont++;
+						});
+
+						var tip=Math.floor(Math.random() * parseInt($(this).find('advice').length));
+						$('#lbAdvice').text($(this).find('advice')[tip].childNodes[0].data);
+						//break; //ver si ponerlo, reduce el tiempo
+					}	
+				});
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.2.0.0" id="BeThePerfectTraveller">
+ 
+  <author>Pablo Vicente Munuera</author>
+ 
+  <name>Be The Perfect Traveller</name>
+ 
+  <description>
+    Select the country you want to know and the app will show you what is the percentege you have to pay 
+	(or what is recommended) and an advice if you travell to that country.
+  </description>
+ 
+  <rim:permissions>
+  </rim:permissions>
+ 
+  <icon src="BeThePerfectTravellerFinal.png"/>
+ 
+  <content src="index.html"/>
+  
+   <feature id="blackberry.app" />
+ 
+  <license href="https://gnu.org/licenses/gpl.html" >
+	Be The Perfect Traveller
+    Copyright (C) 2013  pablovm1990
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. 
+  </license>
+ 
+</widget>

@@ -1,0 +1,54 @@
+/*Be the perfect customer project. Built For Blackberry*/
+
+#countryTitle {
+	color: white;
+	margin-bottom: 2%;
+	margin-top: 0%;
+}
+
+#result {
+	background-image: url('../images/main.jpg') !important;
+}
+
+#main {
+	background-image: url('../images/main.jpg') !important;
+}
+.ui-input-text {
+	width: 50% !important;
+}
+
+.h3White {
+	color: white;
+}
+
+label {
+	margin-right: 5% !important;
+	font-weight: bold;
+}
+
+.ui-slider, .ui-slider-bg, .ui-slider-handle {
+	display: inline-block !important;
+}
+
+.showtip{
+	min-width: 100%;
+	margin-top: 2%;
+	text-align:center;
+	position:relative;   
+	border:1px solid #E8E8E8;
+	border-bottom-right-radius: 60px 5px;
+	display:inline-block;    
+	background: rgb(255,255,136); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,136,1) 77%, rgba(255,255,214,1) 100%); /* FF3.6+ */
+	bckground: -webkit-gradient(linear, left top, right bottom, color-stop(77%,rgba(255,255,136,1)), color-stop(100%,rgba(255,255,214,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* IE10+ */
+	background: linear-gradient(-45deg, rgba(255,255,136,1) 77%,rgba(255,255,214,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#lbAdvice {
+	margin-right: 3% !important;
+	margin-left: 3% !important;
+}

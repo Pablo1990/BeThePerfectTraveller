@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Countries>
+	<country>
+		<id>1</id>
+		<name>USA</name>
+		<tips>
+			<tip>15</tip>
+			<tip>20</tip>
+		</tips>
+		<advice>When eating out -unless the bill includes gratuity- the etiquette you would be expected to tip anywhere from 15% to 20% of the total bill.</advice>
+		<advice>Taxi drivers can be tipped around 10% of the full fare.</advice>
+	</country>
+	<country>
+		<id>2</id>
+		<name>Canada</name>
+		<tips>
+			<tip>10</tip>
+			<tip>20</tip>
+		</tips>
+		<advice>Tips are: 10% poor service, 15% regular, 20% good service or fine dining.
+		</advice>
+	</country>
+	<country>
+		<id>3</id>
+		<name>France</name>
+		<tips>
+			<tip>2</tip>
+			<tip>3</tip>
+		</tips>
+		<advice>If you need to request the bill, you should never snap your fingers at the waiter. This can translate as rude and arrogant.</advice>
+	</country>
+	<country>
+		<id>4</id>
+		<name>Spain</name>
+		<tips>
+			<tip>2</tip>
+			<tip>5</tip>
+		</tips>
+		<advice>The common tip (if you had a good service) is between 1 and 2.5 euros.</advice>
+		<advice>Handshakes can be offered to all present –including any children. Make sure that you greet the oldest people present first.</advice>
+	</country>
+	<country>
+		<id>5</id>
+		<name>Germany</name>
+		<tips>
+			<tip>5</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>The tip is not required, but it's common if you enjoyed the service.</advice>
+		<advice>No tip left on the table, you have to give it to the waiter.</advice>
+		<advice>In Germany you should always retain your punctuality.</advice>
+	</country>
+	<country>
+		<id>6</id>
+		<name>China</name>
+		<tips>
+			<tip>0</tip>
+			<tip>0</tip>
+		</tips>
+		<advice>Tipping is not well seen in China.</advice>
+		<advice>Contrary to Western etiquette, talking with your mouth full when eating is perfectly acceptable in China.</advice>
+	</country>
+	<country>
+		<id>7</id>
+		<name>United Kingdom</name>
+		<tips>
+			<tip>0</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>If you have been unhappy with the service, you should not leave a tip.</advice>
+		<advice>In restaurants where you place your order with your waiter/waitress and receive food, and your bill, at your table, it is usual to tip around 10%.</advice>
+		<advice>It should go without saying, but 'please' after you ask for something, and 'thank you' upon receipt are two phrases you should use.</advice>
+		<advice>Avoid the middle finger or reverse peace signal (known as the V) whilst in the UK. They are both highly insulting and could land you in serious bother if used in the wrong situation.</advice>
+	</country>
+	<country>
+		<id>8</id>
+		<name>Japan</name>
+		<tips>
+			<tip>0</tip>
+			<tip>2</tip>
+		</tips>
+		<advice>Tipping is rarely seen in Japan; however, in Japanese-style inns you can put a money bill(Y1000) in a small envelope and hand it to the person who you think deserve it.</advice>
+		<advice>The word "tip" is pronounced "chippu" in Japanese.</advice>
+		<advice>When entering a Japanese house, you should remove your shoes at the entrance to the home.</advice>
+		<advice>Blowing your nose publicly, especially at the dinner table, is considered to be extremely bad etiquette.</advice>
+		<advice>Unlike other Asian countries, burping at the table is considered vulgar, but slurping your food is not.</advice>
+	</country>
+	<country>
+		<id>9</id>
+		<name>India</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+	<country>
+		<id>10</id>
+		<name>Brazil</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Publicly demeaning or disrespecting a Brazilian is seen as very bad etiquette. Any grievances you have should be discussed in private in a respectful manner.</advice>
+		<advice>The tip is often added to the account as a "Serviço".</advice>
+		<advice>Brazilians love to dance, and the fiery, passionate and sensual way that they do so gives a good insight into the way in which Brazilians tend to interact with each other.</advice>
+		<advice>The chamber maid should be tipped (about R$5+ per day) for good service, as she is integral to the enjoyment of your trip.</advice>
+		<advice>Common taxis (yellow in Rio de Janeiro and white in São Paulo) run on a taxi meter. If the total for the trip comes to say R$4.20 (i.e. a bit above R$4.00), people pay the amount of R$5.00</advice>
+	</country>
+	<country>
+		<id>11</id>
+		<name>Italy</name>
+		<tips>
+			<tip>1</tip>
+			<tip>5</tip>
+		</tips>
+		<advice>You don’t need to tip in Italy. But, 1 or 2 euros, will appreciate.</advice>
+		<advice>Peperoni in Italian are bell peppers, not pepperoni in the US which is hot salami.</advice>
+		<advice>Be especially considerate when visiting churches, as most will have dress codes.</advice>
+		<advice>Don’t get upset if the waiter doesn't bring you the bill when you finish eating. It is considered rude to give a client their bill if they haven’t asked for it.</advice>
+		<advice>You must try the local food. Like most countries, the food varies from region to region. Must try food include: Stuffed Zucchini Blossoms (Zucca), Authentic Carbonera, Gelato (Italian Ice Cream).</advice>
+	</country>
+	<country>
+		<id>12</id>
+		<name>Argentina</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>While not mandatory, is desirable. Locals will tell you 10% (or less) is standard.</advice>
+		<advice>The official currency in Argentina is the "peso" and the abbreviation is ARS. One peso equals 100 centavos. Make sure that you exchange your money when you arrive in Argentina. </advice>
+		<advice>Argentines may also be regarded as quite reserved compared to their Latin American counterparts, and at times may seem fairly allusive or distant</advice>
+		<advice>It is not considered rude to be 30 to 45 minutes late for a dinner invitation however this only applies if you are invited to dinner at someone's home not to a restaurant. </advice>
+		<advice>In touristy areas, you can expect to find some people that may speak good English, but it is always best to be prepared by having learnt some key Spanish phrases to help you along.</advice>
+		<advice>As an outsider, you should never be outwardly critical of any beliefs or viewpoints, especially in regards to religion and past or present politics.</advice>
+	</country>
+	<country>
+		<id>13</id>
+		<name>Russia</name>
+		<tips>
+			<tip>10</tip>
+			<tip>15</tip>
+		</tips>
+		<advice>Tip in cash, and give it directly to the waiter. Many restaurants don’t accept credit cards. You don’t need to tip much, but don’t tip too little either.</advice>
+		<advice>Men and women tend to have more gentle handshakes, and men should wait for the woman to offer her hand first.</advice>
+		<advice>You should be aware that Russians can be quite conservative when it comes to public displays of affection.</advice>
+		<advice>You should try to maintain good posture when you’re out and about. Slouching and dawdling can be considered lazy, and standing with your hands in your pockets is still regarded as bad social etiquette.</advice>
+		<advice>When visiting a Russian religious landmark or building, you should always dress accordingly. This means conservatively, with men wearing trousers and a shirt and women opting for trousers, a long skirt and covering up elsewhere.</advice>
+		<advice>You may be surprised to learn that whistling indoors is a social faux-pas, as some Russians believe in the superstition that indoor whistling results in poor financial performance. Even whistling during applause or as heckling is not acceptable.</advice>
+		<advice>The majority of social etiquette in Russia falls in line with much of the Western world’s practices.</advice>
+	</country>
+	<!-- Faltan por hacer -->
+	<country>
+		<id>14</id>
+		<name>Portugal</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+	<country>
+		<id>15</id>
+		<name>Grecia</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+	<country>
+		<id>16</id>
+		<name>Marruecos</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+	<country>
+		<id>17</id>
+		<name>Holanda</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+	<country>
+		<id>18</id>
+		<name>Cuba</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+	<country>
+		<id>19</id>
+		<name>Noruega</name>
+		<tips>
+			<tip>1</tip>
+			<tip>10</tip>
+		</tips>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
+	</country>
+</Countries>
+<!-- Fuentes: 
+- http://www.traveletiquette.co.uk/EtiquetteFrance.html 
+- http://www.infobae.com/propinasenelmundo
+- http://www.tripadvisor.com/Travel-g186216-s606/United-Kingdom:Tipping.And.Etiquette.html-->
