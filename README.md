@@ -14,6 +14,7 @@ Here some screenshots:
 ![Main page2](/screenshots%20y%20demas/screenshotMain2.png "Main page2")
 
 And some advices and outputs:
+
 ![UK tip](/screenshots%20y%20demas/screenshotResult1.png "UK tip")
 
 ![Spain tip](/screenshots%20y%20demas/screenshotResult2.png "China tip")
