@@ -5,7 +5,7 @@ Select the country you want to know and the app will show you what is the percen
 
 You can download the app here: https://appworld.blackberry.com/webstore/content/33227890/
 
-In futures reviews and release, I will upgrade to more countries.
+In futures reviews and release, I will upgrade to more countries and embody "localytics"
 
 Here some screenshots:
 
