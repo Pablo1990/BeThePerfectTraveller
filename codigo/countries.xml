@@ -153,6 +153,7 @@
 		<advice>You may be surprised to learn that whistling indoors is a social faux-pas, as some Russians believe in the superstition that indoor whistling results in poor financial performance. Even whistling during applause or as heckling is not acceptable.</advice>
 		<advice>The majority of social etiquette in Russia falls in line with much of the Western world’s practices.</advice>
 	</country>
+	<!-- Faltan por hacer -->
 	<country>
 		<id>14</id>
 		<name>Portugal</name>
@@ -160,13 +161,12 @@
 			<tip>1</tip>
 			<tip>10</tip>
 		</tips>
-		<advice>A service charge or serviço is NOT usually added to hotel and restaurant bills in Portugal. However, it is customary to tip an additional 10 % if the service warrants.</advice>
-		<advice>Introductions and greetings are usually very polite and formal with less familiar acquaintances. You should always make a point of using honorific or formal titles such as Senhor or Senhora, unless you have been invited refer to people on a first-name basis.</advice>
-		<advice>Handshaking is the most widespread way to greet a person in Portugal, and is instigated for men, women and children alike.</advice>
-		<advice>Hugging between men and a kiss on each cheek, right to left, and sometimes twice, is common between females.</advice>
-		<advice>You should also bear in mind that the practice of gift giving is customary if you are invited into the home of a Portuguese person. The gift would be opened immediately and in your presence.</advice>
+		<advice>Kissing, or any form of intimate behaviour in public, is considered impolite, even offensive.</advice>
+		<advice>It is not impolite to be curious in India, and in fact to ask extremely personal questions. Don't be shy!</advice>
+		<advice>if the service was good, tip anything between approx 5-10 % of the bill.</advice>
+		<advice>As not to give offence or to draw unwanted attention. For women, short skirts and shorts are best avoided.</advice>
+		<advice>Please keep your mobiles in silent mode when you are visiting places like temples, mosques or buildings of religious importance.</advice>
 	</country>
-	<!-- Faltan por hacer -->
 	<country>
 		<id>15</id>
 		<name>Grecia</name>

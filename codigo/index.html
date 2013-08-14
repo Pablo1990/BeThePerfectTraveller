@@ -4,7 +4,7 @@
 		<!-- jQuery Mobile for BB10	-->
 		<link rel="stylesheet" type="text/css" href="BlackBerry-JQM-all.min.css"/>
 		<script type="text/javascript" src="BlackBerry-JQM-all.min.js"></script>
-		<!--<script type="text/javascript" src="localytics.js"></script>-->
+		<script type="text/javascript" src="localytics.js"></script>
 		<link rel="stylesheet" type="text/css" href="CSS/index.css"></link>
 	</head>
 	<body>
@@ -97,9 +97,9 @@
 		</div>
 
 		<script type="text/javascript">
-			/*var localyticsSession = LocalyticsSession("3ee9a82ec6b50448eba37ce-4c6bb902-f697-11e2-384f-00a426b17dd8");
+			var localyticsSession = LocalyticsSession("3ee9a82ec6b50448eba37ce-4c6bb902-f697-11e2-384f-00a426b17dd8");
 			localyticsSession.open();
-			localyticsSession.upload();*/
+			localyticsSession.upload();
 
 			var data="";
 
@@ -130,28 +130,28 @@
 				$(data).find("country").each(function() {
 					if($(this).find('name').text() == $("#cbCountry").val())
 					{
-						//localyticsSession.tagEvent("SelectedCountry", {"Name":$("#cbCountry").val()});
-						// localyticsSession.open();
-						// localyticsSession.upload();
+						localyticsSession.tagEvent("SelectedCountry", {"Name":$("#cbCountry").val()});
+						localyticsSession.open();
+						localyticsSession.upload();
 						document.getElementById("countryTitle").innerHTML = "Country: " + $("#cbCountry").val();
-						var cont=0;
+						var $cont=0;
 						$(this).find('tip').each(function() {
 							var tip = $(this).text();
-							if(cont==0)
+
+							if($cont==0)
 							{
 								$("#sliderPercent").attr("min", parseInt(tip));
 								$("#sliderPercent").val(parseInt(tip));
-								$('#sliderPercent').slider('refresh');
+								alert('hola44!');
 							}
 							else
 							{
+								alert('hola3!');
 								$("#sliderPercent").attr("max", parseInt(tip));
-								$('#sliderPercent').slider('refresh');
 							}
-							cont++;
+							$cont++;
 						});
-
-						var tip=Math.floor(Math.random() * parseInt($(this).find('advice').length));
+						tip=Math.floor(Math.random() * parseInt($(this).find('advice').length));
 						$('#lbAdvice').text($(this).find('advice')[tip].childNodes[0].data);
 						//break; //ver si ponerlo, reduce el tiempo
 					}	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-        version="1.2.0.0" id="BeThePerfectTraveller">
+        version="2.0.0.0" id="BeThePerfectTraveller">
  
   <author>Pablo Vicente Munuera</author>
  
@@ -14,6 +14,11 @@
  
   <rim:permissions>
   </rim:permissions>
+
+<access uri="http://analytics.localytics.com" subdomains="true">
+  <feature id="blackberry.app" required="true" version="1.0.0"/>
+  <feature id="blackberry.invoke" required="true" version="1.0.0"/>
+</access>
  
   <icon src="BeThePerfectTravellerFinal.png"/>
  
