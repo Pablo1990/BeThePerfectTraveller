@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-        version="2.0.0.0" id="BeThePerfectTraveller">
+        version="2.0.1.0" id="BeThePerfectTraveller">
  
   <author>Pablo Vicente Munuera</author>
  
@@ -19,12 +19,20 @@
   <feature id="blackberry.app" required="true" version="1.0.0"/>
   <feature id="blackberry.invoke" required="true" version="1.0.0"/>
 </access>
+
+<access uri="http://ws.geonames.org/countryCode" subdomains="true">
+  <feature id="blackberry.app" required="true" version="1.0.0"/>
+  <feature id="blackberry.invoke" required="true" version="1.0.0"/>
+</access>
+
+http://ws.geonames.org/countryCode
  
   <icon src="BeThePerfectTravellerFinal.png"/>
  
   <content src="index.html"/>
   
-   <feature id="blackberry.app" />
+  <feature id="blackberry.app" />
+   
  
   <license href="https://gnu.org/licenses/gpl.html" >
 	Be The Perfect Traveller
