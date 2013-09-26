@@ -6,6 +6,11 @@
 	margin-top: 0%;
 }
 
+.ajaxLoader {
+    z-index: 100;
+    display: none;
+}
+
 #result {
 	background-image: url('../images/main.jpg') !important;
 }
@@ -15,6 +20,14 @@
 }
 .ui-input-text {
 	width: 50% !important;
+}
+
+.ui-checkbox-on .ui-btn-inner.ui-btn-corner-all .ui-btn-text{
+	color: white;
+}
+
+.ui-checkbox-off .ui-btn-inner.ui-btn-corner-all .ui-btn-text{
+	color: white;
 }
 
 .h3White {

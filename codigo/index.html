@@ -57,9 +57,10 @@
 				</div>
 				<div data-role="fieldcontain">
 					<input type="checkbox" name="geo" id="geo" onclick="geolocaliza()"/>
-					<label for="geo" class="h3white">Geolocalizeme!</label>
+					<label for="geo"><img id="imgAjaxLoader" class="ajaxLoader" src="images/ajax-loader.gif" />&nbsp;Geolocalizeme!</label>
 				</div>
-				<a data-role="button" href="#result" onclick="lookForCountries();" data-icon="search" data-iconpos="left" rel="external" data-inline="true">
+				<a data-role="button" href="#result" onclick="if($('.ui-btn-inner.ui-corner-top.ui-corner-bottom .ui-btn-text').text()!='Not found') 
+				{lookForCountries();}else{return false;}" data-icon="search" data-iconpos="left" rel="external" data-inline="true">
 					Be the perfect traveller!
 				</a>
 			</div>
@@ -104,7 +105,6 @@
 		</div>
 
 		<script type="text/javascript">
-
 			var localyticsSession = LocalyticsSession("3ee9a82ec6b50448eba37ce-4c6bb902-f697-11e2-384f-00a426b17dd8");
 			localyticsSession.open();
 			localyticsSession.upload();
@@ -112,21 +112,48 @@
 
 			var data="";
 
+			$.ajaxSetup({
+			    complete:function(){
+			        $(".ajaxLoader").hide();
+			    }
+			});
+
 			function geolocaliza()
 			{
 				    navigator.geolocation.getCurrentPosition(function(position) {
+						$(".ajaxLoader").show();
 				        $.getJSON('http://ws.geonames.org/countryCode', {
 				            lat: position.coords.latitude,
 				            lng: position.coords.longitude,
 				            type: 'JSON',
 				        }, function(result) {
-				            $("#cbCountry option").each(function()
-							{
-							    this.selected = (this.text == result.countryName);
-							});
+				        	if($('#geo').is(':checked'))
+				        	{
+				        		var find = false;
+				        		$('#cbCountry option').each(function(){
+							    	if($(this).val()==result.countryName)
+							    	{
+							    		find=true;
+							    	}
+							    });
+							    if(find)
+							    {
+							    	$("#cbCountry").val(result.countryName);
+							    	$('.ui-btn-inner.ui-corner-top.ui-corner-bottom .ui-btn-text').text(result.countryName);
+							    }
+							    else
+							    {
+							    	$('.ui-btn-inner.ui-corner-top.ui-corner-bottom .ui-btn-text').text('Not found');
+							    }
+				        	}
+				        	else
+				        	{
+							    $('.ui-btn-inner.ui-corner-top.ui-corner-bottom .ui-btn-text').text('USA');
+				        	}
+				        	
 				        });
 				   	});
-			}		
+			}
 
 			function getCountryName(texto)
 			{
